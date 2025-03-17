@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Emblema+One&family=Girassol&family=Road+Rage&family=Roboto+Condensed&display=swap');
+@import "tailwindcss";
+
+body {
+  color: red;
+  background-color:#000 ;
+  font-family: 'Raela Grotesque', sans-serif; 
+}
+
+.emblema-one-regular {
+  font-family: "Emblema One", system-ui;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.black-ops-one-regular {
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-condensed-hello> {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 813;
+  font-style: italic;
+}
