@@ -22,7 +22,7 @@ function Header() {
             <div className="flex w-full items-center p-3.5 justify-center sm:justify-start gap-3.5">
                 <div className={`border-2 rounded-full p-1 ${textColor}`}>
                     {/* 1,2,6,9 */}
-                    <img className="w-14 h-14 object-cover rounded-full" src="/newMyfiles/9.jpg" alt="Logo" />
+                    <img className="w-14 h-14 object-cover rounded-full" src="public/newMyfiles/9.jpg" alt="Logo" />
                 </div>
                 <div>
                     <h1 className={`text-2xl sm:text-4xl  ${textColor}`}>
