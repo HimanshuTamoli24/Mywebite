@@ -44,14 +44,15 @@ function ColorSelector() {
 
     const handleColorChange = (colorObj) => {
         setSelectedColor(colorObj);
-        dispatch(setTheme(colorObj)); // Update all properties together
+        dispatch(setTheme(colorObj)); 
         setIsOpen(false);
     };
 
     return (
         <div className="relative inline-block">
             <GrRadialSelected
-                className={`w-8 h-8 m-1 cursor-pointer text-white/35 rounded-full transition-all duration-300`}
+            // will fix this bug after some time 
+                className={`w-8 h-8 m-1 cursor-pointer text-white/50   rounded-full transition-all duration-300`}
                 onClick={() => setIsOpen(!isOpen)}
             />
 

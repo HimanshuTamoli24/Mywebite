@@ -3,7 +3,6 @@ import { BackgroundLines } from "./Components/Ui/Background-lines";
 import Container from "./Components/container/Container";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
-import { Outlet } from "react-router-dom";
 import Skills from "./Components/Skills/Skills";
 import Projects from "./Components/Projects/Projects";
 
