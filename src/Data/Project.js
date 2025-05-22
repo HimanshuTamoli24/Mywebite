@@ -1,5 +1,20 @@
 export const projects = [
     {
+        title: "X Clone – Full-Stack Twitter Clone",
+        stack: "MERN (MongoDB, Express, React, Node.js), Redux Toolkit, Tailwind CSS",
+        description: "A production-ready Twitter (X) clone with features like likes, replies, bookmarks, follow system, Google OAuth, and media uploads.",
+        links: {
+            github: {
+                url: "https://github.com/HimanshuTamoli24/x-clone",
+                icon: "📂",
+            },
+            live: {
+                url: "https://notxclone.vercel.app",
+                icon: "🚀",
+            },
+        },
+    },
+    {
         title: "YouTube Backend REST API",
         stack: "Express.js, MongoDB, Node.js",
         description: "A scalable YouTube API with playlist handling and complex aggregation queries.",
@@ -55,21 +70,6 @@ export const projects = [
             },
             live: {
                 url: "https://rtk-red.vercel.app/",
-                icon: "🚀",
-            },
-        },
-    },
-    {
-        title: "Password Generator",
-        stack: "React.js, Tailwind CSS",
-        description: "A simple and efficient password generator built with React.",
-        links: {
-            github: {
-                url: "https://github.com/HimanshuTamoli24/Reactlearning/tree/main/05passwordgenrator",
-                icon: "📂",
-            },
-            live: {
-                url: "https://reactlearning-green.vercel.app/",
                 icon: "🚀",
             },
         },
