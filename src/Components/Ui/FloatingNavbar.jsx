@@ -33,7 +33,7 @@ export const FloatingNav = ({ navItems, className }) => {
                     transition={{ duration: 0.2 }}
                     className={cn(
                         `flex max-w-fit fixed top-10 inset-x-0 mx-auto border border-current/50
-                        rounded-full ${textBg} shadow-lg z-[5000] 
+                        rounded-full bg-black shadow-lg z-[5000] 
                         pr-2 pl-8 py-1 items-center justify-center space-x-4`,
                         className
                     )}
