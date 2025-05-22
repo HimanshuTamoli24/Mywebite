@@ -8,7 +8,7 @@ const Projects = () => {
 
   return (
     <div className={`my-5 p-4 sm:w-xl w-full ${textColor}`}>
-      <h2 className="text-xl font-itallic text-white">Projects</h2>
+      <h2 className=" text-3xl italic text-white">Projects</h2>
       <p className="mt-7 text-sm font-serif">
         I've built many projects using different technologies. Here are some of my notable works.
       </p>

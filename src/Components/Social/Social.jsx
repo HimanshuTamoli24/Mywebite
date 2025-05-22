@@ -8,7 +8,7 @@ const Social = () => {
 
     return (
         <div className="my-5 p-3.5">
-            <h6 className={`  text-xl  text-white ${textColor}`}>
+            <h6 className={`   text-3xl italic text-white ${textColor}`}>
                 Connect
             </h6>
             <div className="flex gap-3 mt-4">

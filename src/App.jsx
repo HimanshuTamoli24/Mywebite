@@ -5,6 +5,7 @@ import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 import Skills from "./Components/Skills/Skills";
 import Projects from "./Components/Projects/Projects";
+import GithubTrophies from "./Components/GithubTrophies/GithubTrophies";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Header />
         <Projects/>
         <Skills/>
+        <GithubTrophies/>
         <Footer />
       </Container>
     </div>
