@@ -3,13 +3,17 @@ import { FloatingNav } from "../Ui/FloatingNavbar";
 import { TextGenerateEffect } from "../Ui/TextEffect";
 import Social from "../Social/Social";
 import { useSelector } from "react-redux";
+import GitHubCalendar from 'react-github-calendar';
 
 const navItems = [
     { name: "Home", link: "/" },
     { name: "Akshra ", link: "/" },
     { name: "Resume", link: "https://drive.google.com/file/d/11RfUhICJztrDTq9rf4JBYY7eolC2aofNd/view?usp=drive_link" },
 ];
-
+const theme = {
+    light: ['#ebedf0', '#c6e48b']  ,
+    dark: ['#161b22', '#0e4429', '#006d32', '#26a641', '#39d353'] 
+};
 function Header() {
     const { textColor, textHover } = useSelector((state) => state.color);
 
@@ -36,12 +40,22 @@ function Header() {
 
             {/* About Section */}
             <div className="my-5 p-3.5">
-                <h6 className={` font-itallic text-xl text-white`}>About</h6>
+                <h6 className={` text-3xl italic  text-white`}>About</h6>
                 <TextGenerateEffect
                     className={`w-full flex-wrap font-serif ${textColor}`}
                     words="Hello, I'm a 20-year-old developer from New Delhi. I’m deeply passionate about creating high-performance backend APIs. I love reading Books & People."
                 />
             </div>
+
+            <div className={`${textColor}  my-5 p-3.5 scrollbar-thumb-only`}>
+                <h6 className={` text-3xl italic  text-white`}>contributions</h6>
+
+                <GitHubCalendar
+                    username="himanshutamoli24"
+                    theme={theme}
+                />
+            </div>
+
 
             {/* Social Links */}
             <Social />
